@@ -1,0 +1,45 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+body {
+
+  font-family: "oxygen";
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 75px;
+  justify-content: space-between;
+  max-width: 940px;
+  margin-inline: auto;
+  position: absolute; left: 0; right: 0;
+}
+
+.header__logo {}
+
+.header__menu {}
+
+.header__menu__list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__menu__link {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header__menu__item {
+  margin-left: 40px;
+
+}
+
+.hero {
+  background-image: url(../images/hero_bg.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+
+}
